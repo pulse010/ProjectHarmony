@@ -98,15 +98,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "/home/ouriel/Projects/Git/ProjectHarmony/src"
+					"path" : "/home/ouriel/Projects/ProjectHarmony/src"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/ouriel/Projects/Git/ProjectHarmony/lib/imgui"
+					"path" : "/home/ouriel/Projects/ProjectHarmony/lib/imgui"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/ouriel/Projects/Git/ProjectHarmony/lib/miniaudio"
+					"path" : "/home/ouriel/Projects/ProjectHarmony/lib/miniaudio"
 				},
 				{
 					"backtrace" : 2,

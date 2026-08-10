@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ouriel/Projects/Git/ProjectHarmony/build"
+			"value" : "/home/ouriel/Projects/ProjectHarmony/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -139,10 +139,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -267,10 +267,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/gcc"
 		},
 		{
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ouriel/Projects/Git/ProjectHarmony/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/ouriel/Projects/ProjectHarmony/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ouriel/Projects/Git/ProjectHarmony"
+			"value" : "/home/ouriel/Projects/ProjectHarmony"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1411,7 +1411,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ouriel/Projects/Git/ProjectHarmony/build"
+			"value" : "/home/ouriel/Projects/ProjectHarmony/build"
 		},
 		{
 			"name" : "PROJECTHARMONY_IS_TOP_LEVEL",
@@ -1435,7 +1435,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ouriel/Projects/Git/ProjectHarmony"
+			"value" : "/home/ouriel/Projects/ProjectHarmony"
 		},
 		{
 			"name" : "SDL2_DIR",

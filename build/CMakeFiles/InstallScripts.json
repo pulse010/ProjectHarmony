@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/ouriel/Projects/Git/ProjectHarmony/build/cmake_install.cmake"
+		"/home/ouriel/Projects/ProjectHarmony/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

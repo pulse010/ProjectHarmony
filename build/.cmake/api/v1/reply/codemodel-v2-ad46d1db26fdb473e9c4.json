@@ -129,7 +129,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "PROJECTHARMONY::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PROJECTHARMONY-Debug-0bf55df66dd64fbb2c7f.json",
+					"jsonFile" : "target-PROJECTHARMONY-Debug-40232295fe11fb7cc5b5.json",
 					"name" : "PROJECTHARMONY",
 					"projectIndex" : 0
 				}
@@ -139,8 +139,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ouriel/Projects/Git/ProjectHarmony/build",
-		"source" : "/home/ouriel/Projects/Git/ProjectHarmony"
+		"build" : "/home/ouriel/Projects/ProjectHarmony/build",
+		"source" : "/home/ouriel/Projects/ProjectHarmony"
 	},
 	"version" : 
 	{

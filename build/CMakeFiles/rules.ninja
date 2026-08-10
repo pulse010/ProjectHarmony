@@ -44,7 +44,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/ouriel/Projects/Git/ProjectHarmony -B/home/ouriel/Projects/Git/ProjectHarmony/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/ouriel/Projects/ProjectHarmony -B/home/ouriel/Projects/ProjectHarmony/build
   description = Re-running CMake...
   generator = 1
 
