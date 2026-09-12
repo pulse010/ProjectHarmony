@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/cmake_install.cmake",
+		"/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/cmake_install.cmake",
+		"/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

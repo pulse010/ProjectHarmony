@@ -1,0 +1,212 @@
+[
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glad/include -g -o CMakeFiles/glad.dir/external/glad/src/glad.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glad/src/glad.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glad/src/glad.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/glad.dir/external/glad/src/glad.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -g -std=c++17 -o CMakeFiles/imgui.dir/external/imgui/imgui.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui.cpp",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui.cpp",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/imgui.dir/external/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -g -std=c++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_draw.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_draw.cpp",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_draw.cpp",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/imgui.dir/external/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -g -std=c++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_tables.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_tables.cpp",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_tables.cpp",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/imgui.dir/external/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -g -std=c++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_widgets.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_widgets.cpp",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_widgets.cpp",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/imgui.dir/external/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -g -std=c++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_demo.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_demo.cpp",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_demo.cpp",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/imgui.dir/external/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -g -std=c++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_impl_glfw.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_impl_glfw.cpp",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_impl_glfw.cpp",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/imgui.dir/external/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -g -std=c++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_impl_opengl3.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui/imgui_impl_opengl3.cpp",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/imgui.dir/external/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glad/include -g -std=c++17 -o CMakeFiles/ProjectHarmony.dir/src/main.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/src/main.cpp",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/src/main.cpp",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/ProjectHarmony.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/context.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/context.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/context.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/init.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/init.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/init.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/input.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/input.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/input.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/monitor.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/monitor.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/platform.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/platform.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/platform.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/vulkan.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/vulkan.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/window.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/window.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/window.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/egl_context.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/egl_context.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/osmesa_context.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/osmesa_context.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/null_init.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/null_init.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/null_monitor.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/null_monitor.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/null_window.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/null_window.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/null_joystick.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/null_joystick.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/posix_module.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/posix_module.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/posix_time.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/posix_time.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/posix_thread.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/posix_thread.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/x11_init.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/x11_init.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/x11_monitor.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/x11_monitor.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/x11_window.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/x11_window.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/xkb_unicode.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/xkb_unicode.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/glx_context.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/glx_context.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/wl_init.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/wl_init.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/wl_monitor.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/wl_monitor.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/wl_window.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/wl_window.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/linux_joystick.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/linux_joystick.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src -g -std=c99 -fPIC -Wall -o external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/posix_poll.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/src/posix_poll.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
+}
+]

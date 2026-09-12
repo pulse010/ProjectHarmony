@@ -1,0 +1,66 @@
+{
+	"abstract" : true,
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake-4.4/Modules/FindFontconfig.cmake",
+			"/usr/share/cmake-4.4/Modules/FindX11.cmake",
+			"external/glfw/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 176,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 374,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "Fontconfig::Fontconfig::@ca12bac854c2ac6b2230",
+	"imported" : true,
+	"local" : true,
+	"name" : "Fontconfig::Fontconfig",
+	"paths" : 
+	{
+		"build" : "external/glfw/src",
+		"source" : "external/glfw/src"
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}
