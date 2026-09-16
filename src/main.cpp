@@ -10,7 +10,11 @@
 #include "../external/imgui/imgui.h"
 #include "../external/imgui/imgui_impl_glfw.h"
 #include "../external/imgui/imgui_impl_opengl3.h"
+
+#include "miniaudio.h"
+
 #include <stdio.h>
+#include <iostream>
 #define GL_SILENCE_DEPRECATION
 #if defined(IMGUI_IMPL_OPENGL_ES2)
 #include <GLES2/gl2.h>
@@ -38,6 +42,18 @@ static void glfw_error_callback(int error, const char* description)
 // Main code
 int main(int, char**)
 {
+    // MINIAUDIO INITIALIZATION OR WHATEVER.
+    ma_result result;
+    ma_engine engine;
+
+    result = ma_engine_init(NULL, &engine);
+    if (result != MA_SUCCESS) {
+        return -1;
+    } else {
+        std::cout << "Miniaudio Init Success" << '\n';
+    }
+
+
     glfwSetErrorCallback(glfw_error_callback);
     if (!glfwInit())
         return 1;
@@ -187,8 +203,10 @@ int main(int, char**)
             ImGui::SliderFloat("float", &f, 0.0f, 1.0f);            // Edit 1 float using a slider from 0.0f to 1.0f
             ImGui::ColorEdit3("clear color", (float*)&clear_color); // Edit 3 floats representing a color
 
-            if (ImGui::Button("Button"))                            // Buttons return true when clicked (most widgets return true when edited/activated)
+            if (ImGui::Button("Button")) {                          // Buttons return true when clicked (most widgets return true when edited/activated)
                 counter++;
+                ma_engine_play_sound(&engine, "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/src/wii.wav", NULL);
+            }
             ImGui::SameLine();
             ImGui::Text("counter = %d", counter);
 
@@ -203,6 +221,30 @@ int main(int, char**)
             ImGui::Text("Hello from another window!");
             if (ImGui::Button("Close Me"))
                 show_another_window = false;
+            ImGui::End();
+        }
+
+
+        {
+            ImGui::SetNextWindowSize(ImVec2(800.0f, 600.0f));
+            ImGui::Begin("Timeline");
+            // Persist across frames — use static (or a member variable)
+            static float lineOffsetX = 0.0f;
+
+            // Move right when Space is pressed (once per press)
+            if (ImGui::IsKeyPressed(ImGuiKey_Space))
+                lineOffsetX += 20.0f;
+
+            ImDrawList* draw = ImGui::GetWindowDrawList();
+            ImVec2 winPos  = ImGui::GetWindowPos();
+            ImVec2 winSize = ImGui::GetWindowSize();
+
+            float lineX = winPos.x + 30.0f + lineOffsetX;
+
+            draw->AddLine(ImVec2(lineX, winPos.y),
+                        ImVec2(lineX, winPos.y + winSize.y),
+                        IM_COL32(120, 180, 255, 255), 3.0f);
+                        
             ImGui::End();
         }
 
@@ -240,5 +282,7 @@ int main(int, char**)
     glfwDestroyWindow(window);
     glfwTerminate();
 
+
+    ma_engine_uninit(&engine);
     return 0;
 }

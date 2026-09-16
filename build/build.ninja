@@ -167,19 +167,55 @@ build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_Debug CMakeFiles/imgui.dir/ex
   TARGET_SUPPORT_DIR = CMakeFiles/imgui.dir
 
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target miniaudio
+
+
+#############################################
+# Order-only phony target for miniaudio
+
+build cmake_object_order_depends_target_miniaudio: phony || .
+
+build CMakeFiles/miniaudio.dir/external/miniaudio/miniaudio.c.o: C_COMPILER__miniaudio_unscanned_Debug /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/miniaudio/miniaudio.c || cmake_object_order_depends_target_miniaudio
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/miniaudio.dir/external/miniaudio/miniaudio.c.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/miniaudio
+  OBJECT_DIR = CMakeFiles/miniaudio.dir
+  OBJECT_FILE_DIR = CMakeFiles/miniaudio.dir/external/miniaudio
+  TARGET_SUPPORT_DIR = CMakeFiles/miniaudio.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target miniaudio
+
+
+#############################################
+# Link the static library libminiaudio.a
+
+build libminiaudio.a: C_STATIC_LIBRARY_LINKER__miniaudio_Debug CMakeFiles/miniaudio.dir/external/miniaudio/miniaudio.c.o
+  CONFIG = Debug
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/miniaudio.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = libminiaudio.a
+  TARGET_PDB = miniaudio.a.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles/miniaudio.dir
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ProjectHarmony
 
 
 #############################################
 # Order-only phony target for ProjectHarmony
 
-build cmake_object_order_depends_target_ProjectHarmony: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui
+build cmake_object_order_depends_target_ProjectHarmony: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui cmake_object_order_depends_target_miniaudio
 
 build CMakeFiles/ProjectHarmony.dir/src/main.cpp.o: CXX_COMPILER__ProjectHarmony_unscanned_Debug /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/src/main.cpp || cmake_object_order_depends_target_ProjectHarmony
   CONFIG = Debug
   DEP_FILE = CMakeFiles/ProjectHarmony.dir/src/main.cpp.o.d
   FLAGS = -g -std=c++17
-  INCLUDES = -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glad/include
+  INCLUDES = -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glad/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/miniaudio
   OBJECT_DIR = CMakeFiles/ProjectHarmony.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectHarmony.dir/src
   TARGET_SUPPORT_DIR = CMakeFiles/ProjectHarmony.dir
@@ -192,12 +228,12 @@ build CMakeFiles/ProjectHarmony.dir/src/main.cpp.o: CXX_COMPILER__ProjectHarmony
 #############################################
 # Link the executable ProjectHarmony
 
-build ProjectHarmony: CXX_EXECUTABLE_LINKER__ProjectHarmony_Debug CMakeFiles/ProjectHarmony.dir/src/main.cpp.o | libimgui.a external/glfw/src/libglfw3.a libglad.a /usr/lib/x86_64-linux-gnu/librt.a /usr/lib/x86_64-linux-gnu/libm.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || external/glfw/src/libglfw3.a libglad.a libimgui.a
+build ProjectHarmony: CXX_EXECUTABLE_LINKER__ProjectHarmony_Debug CMakeFiles/ProjectHarmony.dir/src/main.cpp.o | libimgui.a external/glfw/src/libglfw3.a libglad.a libminiaudio.a /usr/lib/x86_64-linux-gnu/librt.a /usr/lib/x86_64-linux-gnu/libm.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || external/glfw/src/libglfw3.a libglad.a libimgui.a libminiaudio.a
   CONFIG = Debug
   DEP_FILE = CMakeFiles/ProjectHarmony.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/ProjectHarmony.dir/link.d
-  LINK_LIBRARIES = libimgui.a  external/glfw/src/libglfw3.a  libglad.a  /usr/lib/x86_64-linux-gnu/librt.a  -lm  -ldl  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
+  LINK_LIBRARIES = libimgui.a  external/glfw/src/libglfw3.a  libglad.a  libminiaudio.a  /usr/lib/x86_64-linux-gnu/librt.a  -lm  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  -ldl  -lm  -lpthread
   OBJECT_DIR = CMakeFiles/ProjectHarmony.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -900,6 +936,8 @@ build imgui: phony libimgui.a
 
 build libglfw3.a: phony external/glfw/src/libglfw3.a
 
+build miniaudio: phony libminiaudio.a
+
 build uninstall: phony external/glfw/uninstall
 
 build update_mappings: phony external/glfw/src/update_mappings
@@ -912,7 +950,7 @@ build update_mappings: phony external/glfw/src/update_mappings
 #############################################
 # Folder: /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build
 
-build all: phony libglad.a libimgui.a ProjectHarmony external/glfw/all
+build all: phony libglad.a libimgui.a libminiaudio.a ProjectHarmony external/glfw/all
 
 # =============================================================================
 

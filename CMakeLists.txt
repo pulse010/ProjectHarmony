@@ -25,19 +25,30 @@ add_library(imgui STATIC
     external/imgui/imgui_impl_glfw.cpp
     external/imgui/imgui_impl_opengl3.cpp
 )
+target_include_directories(imgui PUBLIC external/imgui)
 
-target_include_directories(imgui PUBLIC
-    external/imgui
+# --- miniaudio ---
+add_library(miniaudio STATIC external/miniaudio/miniaudio.c)
+
+target_include_directories(miniaudio PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/external/miniaudio
 )
+
+if(UNIX AND NOT APPLE)
+    target_link_libraries(miniaudio PUBLIC dl m pthread)
+endif()
 
 # --- OpenGL ---
 find_package(OpenGL REQUIRED)
-
 target_link_libraries(imgui PUBLIC glfw OpenGL::GL)
 
 # --- Your app ---
-add_executable(ProjectHarmony
-    src/main.cpp
-)
+add_executable(ProjectHarmony src/main.cpp)
 
-target_link_libraries(ProjectHarmony PRIVATE imgui glfw glad OpenGL::GL)
+target_link_libraries(ProjectHarmony PRIVATE
+    imgui
+    glfw
+    glad
+    miniaudio          # <-- add this
+    OpenGL::GL
+)

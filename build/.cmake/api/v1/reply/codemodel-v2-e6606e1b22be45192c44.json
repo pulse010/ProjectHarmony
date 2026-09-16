@@ -1,0 +1,790 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Fontconfig::Fontconfig::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-Fontconfig__Fontconfig-Debug-97334d1942902285b44a.json",
+					"name" : "Fontconfig::Fontconfig",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Freetype::Freetype::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-Freetype__Freetype-Debug-d905d641ec760f6cf21b.json",
+					"name" : "Freetype::Freetype",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::EGL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__EGL-Debug-87137e89275ef5bfbb01.json",
+					"name" : "OpenGL::EGL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GL-Debug-e1d00cf1975b420b3377.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GLES2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GLES2-Debug-b7ec468b72061519efc9.json",
+					"name" : "OpenGL::GLES2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GLES3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GLES3-Debug-a59d0fccfd326369d06e.json",
+					"name" : "OpenGL::GLES3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GLX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GLX-Debug-c338c4f0cf8d81d120d6.json",
+					"name" : "OpenGL::GLX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::OpenGL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__OpenGL-Debug-8c7fdba1a210cd6acb22.json",
+					"name" : "OpenGL::OpenGL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Threads::Threads::@691b517da5fa0f694cd4",
+					"jsonFile" : "target-Threads__Threads-Debug-70d49e314d018ef38c6d.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::ICE::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__ICE-Debug-f7068fba986ced4f0b7f.json",
+					"name" : "X11::ICE",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::SM::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__SM-Debug-9727b3c5cd96d9089bda.json",
+					"name" : "X11::SM",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::X11::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__X11-Debug-335add55da64d905925b.json",
+					"name" : "X11::X11",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::X11_xcb::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__X11_xcb-Debug-06ca4a621e225b05fcb0.json",
+					"name" : "X11::X11_xcb",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xau::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xau-Debug-fa02d4b2984e8381491e.json",
+					"name" : "X11::Xau",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xcomposite::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xcomposite-Debug-efa1789053009294d767.json",
+					"name" : "X11::Xcomposite",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xcursor::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xcursor-Debug-e5b2f8431286fbaa528c.json",
+					"name" : "X11::Xcursor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xdamage::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xdamage-Debug-0501729ef3afd365d101.json",
+					"name" : "X11::Xdamage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xdmcp::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xdmcp-Debug-db218921dc69558f62b0.json",
+					"name" : "X11::Xdmcp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xext::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xext-Debug-5469a001b43f2b335a70.json",
+					"name" : "X11::Xext",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xfixes::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xfixes-Debug-b2cde3ce9ffcf6258f85.json",
+					"name" : "X11::Xfixes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xft::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xft-Debug-6df9c9404baf0c5d9778.json",
+					"name" : "X11::Xft",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xi::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xi-Debug-454be90cd1530d14cba8.json",
+					"name" : "X11::Xi",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xinerama::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xinerama-Debug-cd6d81cacf19845f84c0.json",
+					"name" : "X11::Xinerama",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xkb::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xkb-Debug-db9813aa30701ce24df5.json",
+					"name" : "X11::Xkb",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xpm::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xpm-Debug-c2d0ad90ee9b8cfb05cf.json",
+					"name" : "X11::Xpm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xrandr::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xrandr-Debug-d263e1c2cef257ddfd80.json",
+					"name" : "X11::Xrandr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xrender::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xrender-Debug-bfe37e29133a2faa9eba.json",
+					"name" : "X11::Xrender",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xss::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xss-Debug-b014535aad72fbc12ce1.json",
+					"name" : "X11::Xss",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xt::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xt-Debug-57afcc9fe28ea8e8aae6.json",
+					"name" : "X11::Xt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xtst::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xtst-Debug-f97f201ad5e8a7c3c937.json",
+					"name" : "X11::Xtst",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xutil::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xutil-Debug-7b4e585e2820be245ea8.json",
+					"name" : "X11::Xutil",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xv::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xv-Debug-f70599bee59bdd544b8d.json",
+					"name" : "X11::Xv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::Xxf86vm::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__Xxf86vm-Debug-c4b5ddd2b6458b0d566e.json",
+					"name" : "X11::Xxf86vm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb-Debug-cd20b50f60ff0a9af24c.json",
+					"name" : "X11::xcb",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_composite::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_composite-Debug-554c5ed946b0e0bbd875.json",
+					"name" : "X11::xcb_composite",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_cursor::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_cursor-Debug-38f4cf30b69dfdbed9ab.json",
+					"name" : "X11::xcb_cursor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_damage::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_damage-Debug-1827337f573ae3351be7.json",
+					"name" : "X11::xcb_damage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_dpms::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_dpms-Debug-4adc83b15a0b39cc27ce.json",
+					"name" : "X11::xcb_dpms",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_dri2::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_dri2-Debug-b7c6e1c5d8542cf132e5.json",
+					"name" : "X11::xcb_dri2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_dri3::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_dri3-Debug-9d48c5f8726ca65620d1.json",
+					"name" : "X11::xcb_dri3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_ewmh::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_ewmh-Debug-f3f8b1ddc3d8a42ef6f3.json",
+					"name" : "X11::xcb_ewmh",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_glx::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_glx-Debug-73d429f9bb49a1dfddb5.json",
+					"name" : "X11::xcb_glx",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_icccm::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_icccm-Debug-3abb96bdf6e62f8bc8db.json",
+					"name" : "X11::xcb_icccm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_image::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_image-Debug-695f46432e81d14d88f0.json",
+					"name" : "X11::xcb_image",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_keysyms::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_keysyms-Debug-bf13da4a6cf46879afd9.json",
+					"name" : "X11::xcb_keysyms",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_present::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_present-Debug-fa0d58bf530ccb80fe15.json",
+					"name" : "X11::xcb_present",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_randr::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_randr-Debug-67080366977f2a34a19a.json",
+					"name" : "X11::xcb_randr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_record::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_record-Debug-47a5af5a6e6f0c638d40.json",
+					"name" : "X11::xcb_record",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_render::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_render-Debug-6add8b25718530c78fd1.json",
+					"name" : "X11::xcb_render",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_render_util::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_render_util-Debug-bc632a48393aca84a487.json",
+					"name" : "X11::xcb_render_util",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_res::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_res-Debug-b739eb9d6f022f71e631.json",
+					"name" : "X11::xcb_res",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_screensaver::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_screensaver-Debug-56554d827622de49d7bf.json",
+					"name" : "X11::xcb_screensaver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_shape::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_shape-Debug-3bfdaa5d4e55ee40c37c.json",
+					"name" : "X11::xcb_shape",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_shm::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_shm-Debug-7cd1439b60ac58479899.json",
+					"name" : "X11::xcb_shm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_sync::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_sync-Debug-d59713712bfb39044d8b.json",
+					"name" : "X11::xcb_sync",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_util::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_util-Debug-d8d9c20514858e74cc12.json",
+					"name" : "X11::xcb_util",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_xf86dri::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_xf86dri-Debug-33b1ff51841c73541594.json",
+					"name" : "X11::xcb_xf86dri",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_xfixes::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_xfixes-Debug-80d2cce23aca5f09fe85.json",
+					"name" : "X11::xcb_xfixes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_xinerama::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_xinerama-Debug-3f60e02a300e147f12b6.json",
+					"name" : "X11::xcb_xinerama",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_xinput::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_xinput-Debug-29ce7eb8fef30f91e09e.json",
+					"name" : "X11::xcb_xinput",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_xkb::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_xkb-Debug-995364f36900dbd58fea.json",
+					"name" : "X11::xcb_xkb",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_xtest::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_xtest-Debug-ee1d1fa0e07fe7d5cf97.json",
+					"name" : "X11::xcb_xtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_xv::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_xv-Debug-18665003de8856876cc7.json",
+					"name" : "X11::xcb_xv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xcb_xvmc::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xcb_xvmc-Debug-3df6c8cac205540ce816.json",
+					"name" : "X11::xcb_xvmc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xkbcommon::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xkbcommon-Debug-52cc272a4f4e64ce38d7.json",
+					"name" : "X11::xkbcommon",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xkbcommon_X11::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xkbcommon_X11-Debug-8ccaeeb385e19375c729.json",
+					"name" : "X11::xkbcommon_X11",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "X11::xkbfile::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-X11__xkbfile-Debug-e03161c6c50ecd68676f.json",
+					"name" : "X11::xkbfile",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						8
+					],
+					"build" : "external/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.glfw-Debug-deacace72c26ee53e4f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/glfw",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66
+					],
+					"build" : "external/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.glfw.src-Debug-0806b5ea0b9b0a07b262.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/glfw/src",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ProjectHarmony",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ProjectHarmony::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProjectHarmony-Debug-0d11d27955e392c2e08f.json",
+					"name" : "ProjectHarmony",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glad-Debug-e485e431caec5d46010b.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-glfw-Debug-f54796675f255bf56c0a.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imgui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imgui-Debug-2b40332f9da7363d9186.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miniaudio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miniaudio-Debug-288b208c3c81762debdc.json",
+					"name" : "miniaudio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@691b517da5fa0f694cd4",
+					"jsonFile" : "target-uninstall-Debug-fd582ea479e3554e2b5f.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-update_mappings-Debug-27339c2a6dab3c230986.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+		"source" : "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

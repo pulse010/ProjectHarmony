@@ -1,5 +1,6 @@
 /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/glad.dir
 /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/imgui.dir
+/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/miniaudio.dir
 /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/ProjectHarmony.dir
 /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/edit_cache.dir
 /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/rebuild_cache.dir

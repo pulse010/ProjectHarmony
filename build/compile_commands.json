@@ -49,7 +49,13 @@
 },
 {
   "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
-  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glad/include -g -std=c++17 -o CMakeFiles/ProjectHarmony.dir/src/main.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/src/main.cpp",
+  "command": "/usr/bin/gcc -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/miniaudio -g -o CMakeFiles/miniaudio.dir/external/miniaudio/miniaudio.c.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/miniaudio/miniaudio.c",
+  "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/miniaudio/miniaudio.c",
+  "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/miniaudio.dir/external/miniaudio/miniaudio.c.o"
+},
+{
+  "directory": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build",
+  "command": "/usr/bin/g++ -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/imgui -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glfw/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/glad/include -I/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/external/miniaudio -g -std=c++17 -o CMakeFiles/ProjectHarmony.dir/src/main.cpp.o -c /home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/src/main.cpp",
   "file": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/src/main.cpp",
   "output": "/home/ouriel/Programming/C++/OpenSuite/ProjectHarmony/build/CMakeFiles/ProjectHarmony.dir/src/main.cpp.o"
 },
