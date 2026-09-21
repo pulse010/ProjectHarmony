@@ -230,10 +230,14 @@ int main(int, char**)
             ImGui::Begin("Timeline");
             // Persist across frames — use static (or a member variable)
             static float lineOffsetX = 0.0f;
+            static bool play_toggle = false;
 
             // Move right when Space is pressed (once per press)
             if (ImGui::IsKeyPressed(ImGuiKey_Space))
-                lineOffsetX += 20.0f;
+                play_toggle = !play_toggle;
+
+            if (play_toggle) 
+                lineOffsetX += 100.0f * ImGui::GetIO().DeltaTime;
 
             ImDrawList* draw = ImGui::GetWindowDrawList();
             ImVec2 winPos  = ImGui::GetWindowPos();
@@ -241,9 +245,11 @@ int main(int, char**)
 
             float lineX = winPos.x + 30.0f + lineOffsetX;
 
-            draw->AddLine(ImVec2(lineX, winPos.y),
-                        ImVec2(lineX, winPos.y + winSize.y),
-                        IM_COL32(120, 180, 255, 255), 3.0f);
+            draw->AddLine(
+                ImVec2(lineX, winPos.y),
+                ImVec2(lineX, winPos.y + winSize.y),
+                IM_COL32(120, 180, 255, 255),
+                3.0f);
                         
             ImGui::End();
         }
