@@ -228,6 +228,11 @@ int main(int, char**)
         {
             ImGui::SetNextWindowSize(ImVec2(800.0f, 600.0f));
             ImGui::Begin("Timeline");
+            
+            ImDrawList* draw = ImGui::GetWindowDrawList();
+            ImVec2 winPos  = ImGui::GetWindowPos();
+            ImVec2 winSize = ImGui::GetWindowSize();
+
             // Persist across frames — use static (or a member variable)
             static float lineOffsetX = 0.0f;
             static bool play_toggle = false;
@@ -239,10 +244,6 @@ int main(int, char**)
             if (play_toggle) 
                 lineOffsetX += 100.0f * ImGui::GetIO().DeltaTime;
 
-            ImDrawList* draw = ImGui::GetWindowDrawList();
-            ImVec2 winPos  = ImGui::GetWindowPos();
-            ImVec2 winSize = ImGui::GetWindowSize();
-
             float lineX = winPos.x + 30.0f + lineOffsetX;
 
             draw->AddLine(
@@ -251,6 +252,7 @@ int main(int, char**)
                 IM_COL32(120, 180, 255, 255),
                 3.0f);
                         
+
             ImGui::End();
         }
 
